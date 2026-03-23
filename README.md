@@ -73,6 +73,10 @@ MongoDB
 React (Frontend)
 
 
+
+##technicals
+
+
 To run the backend :
 npm start
 
