@@ -60,7 +60,7 @@ const connectDB = () => {
 const startServer = async () => {
     try {
         connectDB();
-        app.listen(5000, "0.0.0.0" , () => console.log("Server started on port 5000 , on shlok pc :)"));
+        app.listen(5000, "0.0.0.0" , () => console.log("Server started on port 5000 :)"));
     } catch (error) {
         console.log(error);
     }

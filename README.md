@@ -89,5 +89,5 @@ to demostrate dashboard without iot device:
 
 inside postman do a post request to :- http://localhost:5000/api/parking/update/  or  http://{IP ADDRESS}:5000/api/parking/update/
 
-with body format , {"uid":"334f5a6","zone":"A","action":"entry","datetime":"07/03/2026 1211"}
+with body format(raw ,json) , {"uid":"334f5a6","zone":"A","action":"entry","datetime":"07/03/2026 1211"}
                    {"uid":"334f5a6","zone":"A","action":"exit","datetime":"07/03/2026 1211"}
